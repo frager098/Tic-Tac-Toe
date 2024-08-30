@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "styling.css">
+</head>
+<body>
+    <div class="board">
+        <div class="frame1">
+            <div class="mainframe">
+                <div class="innerframe">
+                    <div class="status">
+                        <div class="status1 playero"><span>Player O</span><span class="msg">0</span></div>
+                        <div class="status2"><span>Draw</span>
+                        <span class="msg">0</span></div>
+                        <div class="status3 playerx"><span>Player X</span>
+                        <span class="msg">0</span></div>
+                    </div>
+                    <div class="grid">
+                        <div class="row row1">
+                            <div class="box box1"></div>
+                            <div class="box box2"></div>
+                            <div class="box box3"></div>
+                        </div>
+                        <div class="row row2">
+                            <div class="box box4"></div>
+                            <div class="box box5"></div>
+                            <div class="box box6"></div>
+                        </div>
+                        <div class="row row3">
+                            <div class="box box7"></div>
+                            <div class="box box8"></div>
+                            <div class="box box9"></div>
+                        </div>
+                    </div>
+                    <div class="lowersection">
+                        <div class="result"><img class="badge-img" src="/Images/ribbon-29767.svg" alt=""><div class="win-msg" style="color:white">Game over. Player O Wins!</div></div>
+                        <button id="butt">New Game</button>
+                        <button id="butto">O turn</button>
+                        <button id="buttx">X turn</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text">tic. <br />
+                <span class="inner">tac.</span> <br />
+                toe.
+            </div>
+        </div>
+    </div>
+    <script src="functionality.js"></script>
+</body> 
+</html>
