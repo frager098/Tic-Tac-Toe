@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="upperSection">
+        <h1>Player 1</h1>
+        <h1>Player 2</h1>
+    </div>
+    <div class="inputSection">
+        Symbol : <span id="symbol1"></span>
+        <input type="text" placeholder="Enter Symbol" id="input1">
+        Symbol : <span id="symbol2"></span>
+        <input type="text" placeholder="Enter Symbol" id="input2">
+    </div>
+    <p id="status">Player 1 turn</p>
+    <button id="butt">Reset?</button>
+     <div class="tictactoe">
+        <div class="r1 row">
+            <div class="b1 box" id="b1" ></div>
+            <div class="b2 box" id="b2" ></div>
+            <div class="b3 box" id="b3" ></div>
+        </div>
+        <div class="r2 row">
+            <div class="b4 box" id="b4" ></div>
+            <div class="b5 box" id="b5" ></div>
+            <div class="b6 box" id="b6" ></div>
+            
+        </div>
+        <div class="r3 row">
+            <div class="b7 box" id="b7" ></div>
+            <div class="b8 box" id="b8"></div>
+            <div class="b9 box" id="b9"></div>
+        </div>
+    </div> 
+     <!-- <div class="tictactoe">
+        <div class="r1 row">
+            <div class="b1 box" id="b1" onmousedown="game('1')" onmouseup="winnerCheck()"></div>
+            <div class="b2 box" id="b2" onmousedown="game('2')" onmouseup="winnerCheck()"></div>
+            <div class="b3 box" id="b3" onmousedown="game('3')" onmouseup="winnerCheck()"></div>
+        </div>
+        <div class="r2 row">
+            <div class="b4 box" id="b4" onmousedown="game('4')" onmouseup="winnerCheck()"></div>
+            <div class="b5 box" id="b5" onmousedown="game('5')" onmouseup="winnerCheck()"></div>
+            <div class="b6 box" id="b6" onmousedown="game('6')" onmouseup="winnerCheck()"></div>
+            
+        </div>
+        <div class="r3 row">
+            <div class="b7 box" id="b7" onmousedown="game('7')" onmouseup="winnerCheck()"></div>
+            <div class="b8 box" id="b8" onmousedown="game('8')" onmouseup="winnerCheck()"></div>
+            <div class="b9 box" id="b9" onmousedown="game('9')" onmouseup="winnerCheck()"></div>
+        </div>
+    </div>  -->
+   
+    <script src="app.js"></script>
+</body>
+</html>
